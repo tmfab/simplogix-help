@@ -83,7 +83,7 @@ const config: Config = {
           title: 'Support',
           items: [
             {label: 'Contact Support', href: 'mailto:support@simplogix.app'},
-            {label: 'Open App', href: 'https://app.simplogix.app'},
+            {label: 'Open App', href: 'https://simplogix.app'},
           ],
         },
       ],
