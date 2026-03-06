@@ -24,4 +24,4 @@ jobs:
       - name: Deploy to Plesk via FTP
         run: |
           sudo apt-get install -y lftp
-          lftp -e "set ftp:passive-mode yes; set net:timeout 30; set net:max-retries 3; mirror -R --delete build/ /httpdocs/; quit" ftp://${{ secrets.FTP_USER }}:${{ secrets.FTP_PASS }}@${{ secrets.FTP_HOST }}
+          lftp -e "set ftp:passive-mode yes; set ftp:ssl-allow no; set net:timeout 30; set net:max-retries 3; mirror -R --delete build/ /httpdocs/; quit" ftp://${{ secrets.FTP_USER }}:${{ secrets.FTP_PASS }}@${{ secrets.FTP_HOST }}
