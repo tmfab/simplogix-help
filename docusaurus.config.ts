@@ -3,6 +3,17 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        docsRouteBasePath: '/',
+      },
+    ],
+  ],
   title: 'SIMPLOGIX Help',
   tagline: 'Everything you need to get the most out of SIMPLOGIX',
   favicon: 'img/favicon.ico',
@@ -57,6 +68,12 @@ const config: Config = {
           sidebarId: 'helpSidebar',
           position: 'left',
           label: 'Documentation',
+        },
+        {
+          href: 'https://simplogix.app',
+          label: 'Open App',
+          position: 'right',
+          className: 'navbar-open-app-btn',
         },
       ],
     },

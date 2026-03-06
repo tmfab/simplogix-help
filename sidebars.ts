@@ -9,6 +9,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'getting-started/what-is-simplogix',
         'getting-started/logging-in',
+        'getting-started/dashboard',
         'getting-started/navigating-the-app',
         'getting-started/user-roles',
       ],
