@@ -26,17 +26,23 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Navbar Open App button */
+/* Navbar Open App button — placed after the dark mode toggle */
 .navbar-open-app-btn {
   background-color: var(--ifm-color-primary);
   color: #000 !important;
   border-radius: 6px;
   padding: 6px 14px !important;
   font-weight: 600;
-  margin-left: 8px;
+  margin-left: 12px;
+  order: 10;
 }
 
 .navbar-open-app-btn:hover {
   background-color: var(--ifm-color-primary-light);
   color: #000 !important;
+}
+
+/* Push dark mode toggle before the Open App button */
+[class*='colorModeToggle'] {
+  order: 9;
 }
