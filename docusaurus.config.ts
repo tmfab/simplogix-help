@@ -49,7 +49,7 @@ const config: Config = {
       title: 'SIMPLOGIX Help',
       logo: {
         alt: 'SIMPLOGIX Logo',
-        src: 'img/logo.svg',
+        src: 'img/simplogix-logo.svg',
       },
       items: [
         {
@@ -64,9 +64,16 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Help',
+          title: 'Getting Started',
           items: [
-            {label: 'Getting Started', to: '/getting-started/what-is-simplogix'},
+            {label: 'What is SIMPLOGIX?', to: '/getting-started/what-is-simplogix'},
+            {label: 'Logging In', to: '/getting-started/logging-in'},
+            {label: 'User Roles', to: '/getting-started/user-roles'},
+          ],
+        },
+        {
+          title: 'Features',
+          items: [
             {label: 'Assets', to: '/assets/overview'},
             {label: 'Inspections', to: '/inspections/overview'},
             {label: 'Defects', to: '/defects/overview'},
@@ -76,6 +83,7 @@ const config: Config = {
           title: 'Support',
           items: [
             {label: 'Contact Support', href: 'mailto:support@simplogix.app'},
+            {label: 'Open App', href: 'https://app.simplogix.app'},
           ],
         },
       ],
