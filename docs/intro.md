@@ -5,33 +5,33 @@ title: Welcome
 
 # SIMPLOGIX Help Centre
 
-Welcome to the SIMPLOGIX documentation. Use the sidebar to find what you need, or start with the guides below.
+Welcome to the SIMPLOGIX docs. Use the sidebar to navigate, or pick a starting point below.
 
 ## Getting started
 
 New to SIMPLOGIX? Start here:
 
-- [What is SIMPLOGIX?](/getting-started/what-is-simplogix) -- overview of the platform
-- [Logging in](/getting-started/logging-in) -- access your account
-- [Navigating the app](/getting-started/navigating-the-app) -- find your way around
-- [User roles](/getting-started/user-roles) -- understand what each role can do
-- [The dashboard](/getting-started/dashboard) -- your site at a glance
+- [What is SIMPLOGIX?](/getting-started/what-is-simplogix) — a quick overview of the platform
+- [Logging in](/getting-started/logging-in) — accessing your account
+- [Navigating the app](/getting-started/navigating-the-app) — finding your way around
+- [User roles](/getting-started/user-roles) — what each role can do
+- [The dashboard](/getting-started/dashboard) — your site at a glance
 
 ## Core features
 
-- [Assets](/assets/overview) -- manage your equipment register
-- [Inspections](/inspections/overview) -- run and schedule inspections
-- [Defects](/defects/overview) -- log, assess, and resolve defects
-- [Restricted areas](/restricted-areas/overview) -- manage safety zones
-- [Reports](/reports/overview) -- generate reports and export data
-- [Team](/team/overview) -- manage your team and schedules
+- [Assets](/assets/overview) — your equipment register
+- [Defects](/defects/overview) — logging, assessing, and resolving defects
+- [Inspections](/inspections/overview) — running and scheduling inspections
+- [Restricted areas](/restricted-areas/overview) — managing safety zones
+- [Reports](/reports/overview) — generating reports and exporting data
+- [Team](/team/overview) — rosters, availability, and schedules
 
 ## Administration
 
-- [Inviting users](/admin/inviting-users) -- add new team members
-- [Managing users](/admin/managing-users) -- roles, site access, and deactivation
-- [Site management](/admin/site-management) -- create and configure sites
-- [Templates](/admin/templates) -- customise asset, inspection, and defect forms
+- [Inviting users](/admin/inviting-users) — adding new team members
+- [Managing users](/admin/managing-users) — roles, site access, and deactivation
+- [Site management](/admin/site-management) — creating and configuring sites
+- [Templates](/admin/templates) — customising forms and checklists
 
 ## Need help?
 

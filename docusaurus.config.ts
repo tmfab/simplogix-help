@@ -52,7 +52,8 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    // TODO: Add a SIMPLOGIX social card image at img/social-card.jpg
+    // image: 'img/social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -93,8 +94,8 @@ const config: Config = {
           title: 'Features',
           items: [
             {label: 'Assets', to: '/assets/overview'},
-            {label: 'Inspections', to: '/inspections/overview'},
             {label: 'Defects', to: '/defects/overview'},
+            {label: 'Inspections', to: '/inspections/overview'},
             {label: 'Restricted Areas', to: '/restricted-areas/overview'},
             {label: 'Reports', to: '/reports/overview'},
             {label: 'Team', to: '/team/overview'},

@@ -5,57 +5,49 @@ title: Team Overview
 
 # Team
 
-The **Team** section lets you view your team roster, manage availability and schedules, and assign work.
+The **Team** section shows your team roster, lets you manage availability and schedules, and assign work.
 
 ## The team list
 
-The team page shows all members at your selected site(s). Use the **status tabs** to filter:
+The team page shows all members at your selected site(s). Filter by status using the tabs:
 
 | Tab | Shows |
 |---|---|
 | **All** | Everyone |
 | **On Shift** | Currently rostered on |
-| **Available** | Currently available for work |
+| **Available** | Available for work |
 | **On Leave** | On leave or R&R |
 | **Inactive** | Inactive accounts |
 
-Each team member row shows:
+Each row shows name, site, role, department, presence status (Available, On Shift, On Leave, Off Site, or Unavailable), current roster entry, workload (assigned/completed inspections and defects, overdue items), contact details, and join date.
 
-- **Name** and site
-- **Role and department**
-- **Presence status** -- Available, On Shift, On Leave, Off Site, or Unavailable
-- **Roster** -- current schedule entry type and on-site status
-- **Workload** -- assigned inspections, completed inspections, assigned defects, resolved defects, and overdue items
-- **Contact** -- email and phone
-- **Joined date**
-
-Use the search bar to find members by name, role, or email. Filter by department using the dropdown.
+Search by name, role, or email. Filter by department using the dropdown.
 
 ## Team member details
 
 Click any team member to open their detail modal with four tabs:
 
 ### Overview
-Contact information, current shift details, join date, last on-site date, employee number, and certifications.
+Contact info, current shift, join date, last on-site date, employee number, and certifications.
 
 ### Assignments
-- **Assigned defects** -- open and in-progress defects assigned to this person
-- **Assigned inspections** -- pending and scheduled inspections
-- **Assign inspection** button -- quickly assign an available inspection to this member
+- Assigned defects (open and in-progress)
+- Assigned inspections (pending and scheduled)
+- An **Assign inspection** button to quickly assign a pending inspection
 
 ### Activity
 Audit log of the member's actions over the last 30 days.
 
 ### Schedule
-List of scheduled entries (roster, R&R, leave, training, travel, standby) with the ability to add and edit entries.
+Scheduled entries (roster, R&R, leave, training, travel, standby) with the ability to add and edit.
 
 ## Schedule view
 
-Switch to **Schedule view** from the toolbar to see a calendar-based view of all team members' schedules.
+Switch to **Schedule view** from the toolbar for a calendar-based view of all team members' schedules.
 
 ## Roster patterns
 
-When creating a schedule entry for a team member, you can use a **roster pattern** to automatically generate recurring on-site and R&R blocks:
+When creating a schedule entry, you can use a roster pattern to automatically generate recurring on-site and R&R blocks:
 
 | Pattern | Cycle |
 |---|---|
@@ -68,29 +60,26 @@ When creating a schedule entry for a team member, you can use a **roster pattern
 | 28/14 Month | 28 days on, 14 days off |
 | Custom | Set your own days on/off |
 
-Select a pattern, choose a start date and number of cycles, and the system generates all the schedule entries automatically.
+Select a pattern, choose a start date and number of cycles, and the system generates all the entries.
 
 ## Availability calendar
 
 The **Inspector Availability** page (linked from the team page) shows:
 
-- **Calendar view** -- colour-coded availability periods for all inspectors or a selected individual
-- **List view** -- all team members with their upcoming availability periods and status
+- **Calendar view** — colour-coded availability periods for all inspectors or a selected individual
+- **List view** — all team members with upcoming availability and status
 
-Create or edit availability periods with:
-- Start and end dates
-- Status: Available, On Leave, or Reduced Capacity (with a capacity percentage slider)
-- Optional notes
+Create or edit availability periods with start and end dates, a status (Available, On Leave, or Reduced Capacity with a percentage slider), and optional notes.
 
 ## Assigning inspections
 
-From a team member's detail modal (Assignments tab), click **Assign Inspection** to search for and assign a pending inspection. You can search by inspection ID, title, asset name, or template name.
+From a team member's detail modal (Assignments tab), click **Assign Inspection** to search for and assign a pending inspection by ID, title, asset name, or template name.
 
 ## Exporting
 
 Click **Export CSV** in the toolbar to download the current filtered team list.
 
-## Who can manage team features?
+## Permissions
 
 | Action | Admin | Manager | Operator | Viewer |
 |---|:---:|:---:|:---:|:---:|

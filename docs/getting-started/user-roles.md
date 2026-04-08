@@ -5,16 +5,16 @@ title: User Roles
 
 # User Roles
 
-SIMPLOGIX uses role-based access control. Your role determines what you can see and do within the app. Roles are hierarchical -- higher roles inherit all permissions of lower roles.
+SIMPLOGIX uses role-based access control. Your role determines what you can see and do. Roles are hierarchical, so higher roles inherit all the permissions of lower ones.
 
 ## Role overview
 
 | Role | Description |
 |---|---|
-| **Admin** | Full access -- manages users, site settings, templates, assets, inspections, and defects |
-| **Manager** | Manages team and operations -- can edit assets, assign defects, approve inspections, and manage team schedules |
-| **Planner** | Planning and scheduling -- can edit defect planning, closeout details, and scheduling |
-| **Operator** | Field work -- can create assets, run inspections, and log defects |
+| **Admin** | Full access — manages users, site settings, templates, assets, inspections, and defects |
+| **Manager** | Manages team and operations — can edit and delete assets, assign defects, approve inspections, and manage schedules |
+| **Planner** | Planning and scheduling — can edit defect planning, closeout details, and scheduling |
+| **Operator** | Field work — can create assets, run inspections, and log defects |
 | **Viewer** | Read-only access to all data |
 
 ## Permissions at a glance
@@ -23,13 +23,13 @@ SIMPLOGIX uses role-based access control. Your role determines what you can see 
 |---|:---:|:---:|:---:|:---:|:---:|
 | View assets, inspections, defects | Yes | Yes | Yes | Yes | Yes |
 | View dashboard and reports | Yes | Yes | Yes | Yes | Yes |
-| Create assets | Yes | Yes | | Yes | |
+| Create assets | Yes | Yes | Yes | Yes | |
 | Edit assets | Yes | Yes | | | |
-| Delete assets | Yes | | | | |
-| Create inspections | Yes | Yes | | Yes | |
-| Execute inspections | Yes | Yes | | Yes | |
+| Delete assets | Yes | Yes | | | |
+| Create inspections | Yes | Yes | Yes | Yes | |
+| Execute inspections | Yes | Yes | Yes | Yes | |
 | Approve inspections | Yes | Yes | | | |
-| Create defects | Yes | Yes | | Yes | |
+| Create defects | Yes | Yes | Yes | Yes | |
 | Edit defect details | Yes | Yes | | | |
 | Edit defect planning and closeout | Yes | Yes | Yes | | |
 | Assign defects | Yes | Yes | | | |
@@ -39,11 +39,11 @@ SIMPLOGIX uses role-based access control. Your role determines what you can see 
 | Company settings and user management | Yes | | | | |
 
 :::note About the Planner role
-The Planner role is designed for team members who coordinate repairs and scheduling. Planners can edit defect planning details (priority, timeline, work orders) and closeout information, but cannot create assets or inspections. This makes it ideal for planning engineers or supervisors who focus on repair coordination.
+The Planner role is designed for team members who coordinate repairs and scheduling. Planners can edit defect planning details (priority, timeline, work orders) and closeout information. While planners can technically create assets and inspections, the role is best suited for planning engineers or supervisors focused on repair coordination rather than field work.
 :::
 
 ## Changing a user's role
 
-Only **Admins** can change user roles. Go to **Company Settings > Users**, find the user, and update their role.
+Only Admins can change roles. Go to **Company Settings > Users**, find the user, and update their role.
 
-Admins cannot assign a role higher than their own.
+You can't assign a role higher than your own.

@@ -7,14 +7,14 @@ title: Managing Users
 
 ## The users list
 
-Go to **Company Settings > Users** to see all users in your company. Each row shows:
+Go to **Company Settings > Users** to see everyone in your company. Each row shows:
 
-- **Name** and **email**
-- **Role** badge (Admin, Manager, Planner, Operator, or Viewer)
-- **Department**
-- **Primary site** (plus a count of additional sites if they have multi-site access)
-- **Activity** -- number of actions in the last 30 days and when they were last active
-- **Status** -- Active, Pending, or Inactive
+- Name and email
+- Role badge (Admin, Manager, Planner, Operator, or Viewer)
+- Department
+- Primary site (plus a count of additional sites if they have multi-site access)
+- Activity — actions in the last 30 days and when they were last active
+- Status — Active, Pending, or Inactive
 
 ## Changing a user's role
 
@@ -32,11 +32,11 @@ Users can have access to one or more sites, each with a different access level.
 1. Click the action menu on the user's row
 2. Select **Manage Site Access**
 3. In the dialog you can:
-   - **Add a site** -- select from sites the user doesn't already have, choose an access level (Read, Write, or Admin), and save
-   - **Change access level** -- use the inline dropdown on each existing site
-   - **Remove access** -- click the delete icon to revoke access to a site (you'll be warned if it's their only site)
+   - **Add a site** — pick from sites the user doesn't already have, choose an access level, and save
+   - **Change access level** — use the inline dropdown on each existing site
+   - **Remove access** — click the delete icon (you'll be warned if it's their only site)
 
-Access levels determine what the user can do on that specific site:
+Access levels:
 
 | Access Level | Granted to |
 |---|---|
@@ -46,14 +46,12 @@ Access levels determine what the user can do on that specific site:
 
 ## Deactivating a user
 
-To prevent a user from logging in:
-
 1. Click the action menu on the user's row
 2. Select **Deactivate**
-3. Confirm the action
+3. Confirm
 
-Deactivated users cannot sign in but their data (inspections, defects, activity history) is preserved. You can **Reactivate** them at any time from the same menu.
+Deactivated users can't sign in, but their data (inspections, defects, activity history) is preserved. You can **Reactivate** them at any time from the same menu.
 
 ## Bulk import
 
-For adding many users at once, use the **Import** option to upload a CSV file with user details. See [Import and Export](/admin/import-export) for details.
+To add many users at once, use the **Import** option to upload a CSV. See [Import and Export](/admin/import-export) for details.

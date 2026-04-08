@@ -7,18 +7,20 @@ title: Logging In
 
 ## Accessing SIMPLOGIX
 
-Open your browser and go to [app.simplogix.app](https://app.simplogix.app).
+Go to [app.simplogix.app](https://app.simplogix.app) in your browser.
 
-## Signing in with email and password
+![Login page](/img/screenshots/login.png)
 
-1. Enter your **email address** and **password**
+## Email and password
+
+1. Enter your email address and password
 2. Click **Sign in**
 
-If you don't have an account, contact your site administrator -- they can invite you from **Company Settings > Users**.
+If you don't have an account, ask your site administrator to send you an invite from **Company Settings > Users**.
 
-## Signing in with Microsoft
+## Microsoft sign-in
 
-If your organisation uses Microsoft 365, you can sign in with your Microsoft account:
+If your organisation uses Microsoft 365:
 
 1. Click **Sign in with Microsoft** on the login page
 2. Authenticate with your Microsoft credentials
@@ -26,12 +28,12 @@ If your organisation uses Microsoft 365, you can sign in with your Microsoft acc
 
 ## Accepting an invitation
 
-If you've been invited by an administrator, you'll receive an email with an **Accept Invitation** link. Clicking it takes you to a setup page where you can:
+When an administrator invites you, you'll get an email with an **Accept Invitation** link. Click it and you'll be taken to a setup page where you can either:
 
-- **Set a password** -- create a password (minimum 8 characters, must include uppercase, lowercase, number, and special character)
-- **Link your Microsoft account** -- sign in with Microsoft instead of setting a password
+- **Set a password** (minimum 8 characters, must include uppercase, lowercase, number, and special character)
+- **Link your Microsoft account** instead
 
-Once set up, you'll be taken straight to your dashboard.
+Once you're set up, you'll land on your dashboard.
 
 :::tip
 Invitation links expire after 7 days. If yours has expired, ask your administrator to resend the invite or activate your account directly.
@@ -41,7 +43,7 @@ Invitation links expire after 7 days. If yours has expired, ask your administrat
 
 1. Click **Forgot password?** on the login screen
 2. Enter your email address
-3. Check your inbox for a reset link (check your spam folder if it doesn't arrive within a few minutes)
+3. Check your inbox for a reset link (give it a few minutes, and check spam)
 4. Follow the link to set a new password
 
 ## Trouble logging in?
@@ -52,4 +54,4 @@ Invitation links expire after 7 days. If yours has expired, ask your administrat
 
 ## Switching companies
 
-If you belong to more than one company, you'll see a **company selection** screen after signing in. Select the company you want to work in. You can switch companies later from the profile menu.
+If you belong to more than one company, you'll see a company selection screen after signing in. Pick the company you want to work in. You can switch later from the profile menu.

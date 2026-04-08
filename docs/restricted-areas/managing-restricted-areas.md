@@ -14,22 +14,22 @@ Managers and Admins can create restricted areas.
 3. Fill in the form:
 
 **Required fields:**
-- **Area code** -- a unique identifier for this zone
-- **Plant area** -- where on site the zone is located
-- **Location description** -- a detailed description of the physical location
-- **Risk rating** -- Extreme, High, or Medium
+- **Area code** — a unique identifier for the zone
+- **Plant area** — where on site it's located
+- **Location description** — a detailed description of the physical location
+- **Risk rating** — Extreme, High, or Medium
 
 **Optional fields:**
-- **Controls** -- describe what safety controls are in place
-- **GPS coordinates** -- latitude and longitude for mapping
-- **Hazard classification** -- select all that apply (Chemical, Electrical, Confined Space, Working at Height, Radiation, Biological, Mechanical, Thermal, Noise, Pressure)
-- **PPE requirements** -- select all that apply (Hard Hat, Safety Glasses, Respirator, Safety Harness, Gloves, Steel Cap Boots, etc.)
-- **Access requirements** -- select all that apply (Permit to Work, Confined Space Entry Permit, Hot Work Permit, Training Certificate, Escort Required, Medical Clearance)
-- **Signage requirements** -- select all that apply (Warning Sign, Exclusion Zone Marker, Barricade Tape, Hard Barricade, etc.)
-- **Permit to work** -- toggle on if a permit is required, then enter the permit number and expiry date
-- **Next review due** -- when controls should next be formally reviewed
-- **Emergency procedures** -- muster point, emergency shower, spill kit, first aid, emergency contact, and phone
-- **Requires sign-in** -- whether personnel must sign in/out when entering the area
+- **Controls** — what safety controls are in place
+- **GPS coordinates** — latitude and longitude for mapping
+- **Hazard classification** — select all that apply (Chemical, Electrical, Confined Space, Working at Height, Radiation, Biological, Mechanical, Thermal, Noise, Pressure)
+- **PPE requirements** — select all that apply (Hard Hat, Safety Glasses, Respirator, Safety Harness, Gloves, Steel Cap Boots, etc.)
+- **Access requirements** — select all that apply (Permit to Work, Confined Space Entry Permit, Hot Work Permit, Training Certificate, Escort Required, Medical Clearance)
+- **Signage requirements** — select all that apply (Warning Sign, Exclusion Zone Marker, Barricade Tape, Hard Barricade, etc.)
+- **Permit to work** — toggle on if a permit is required, then enter the permit number and expiry date
+- **Next review due** — when controls should next be reviewed
+- **Emergency procedures** — muster point, emergency shower, spill kit, first aid, emergency contact, and phone
+- **Requires sign-in** — whether personnel must sign in/out when entering the area
 
 4. Click **Create**
 
@@ -48,27 +48,27 @@ Each restricted area has a detail page with five tabs:
 - Top 5 defects ranked by risk level
 
 ### Assets
-- All assets linked to this restricted area
+All assets linked to this restricted area.
 
 ### Documents
-- File attachments related to the area
+File attachments related to the area.
 
 ### Activity
-- Verification history log
+Verification history log.
 
 ## Linking assets and defects
 
-From the detail page, use the **Link Asset** or **Link Defect** buttons to associate existing records with the area. This lets you see at a glance which equipment is in the zone and what issues have been identified.
+From the detail page, use the **Link Asset** or **Link Defect** buttons to associate existing records. This lets you see at a glance which equipment is in the zone and what issues have been identified.
 
 ## Verifying controls
 
-Active restricted areas need regular verification. When verification is due:
+Active restricted areas need regular verification. When it's due:
 
 1. Open the restricted area
 2. Click **Verify Controls**
-3. Select the verification status:
-   - **Verified** -- controls are still in place and effective
-   - **Area Cleared** -- the hazard is resolved (this changes the area's status to Cleared)
+3. Select the status:
+   - **Verified** — controls are still in place and effective
+   - **Area Cleared** — the hazard is resolved (this changes the area's status to Cleared)
 4. Add optional notes
 5. Save
 

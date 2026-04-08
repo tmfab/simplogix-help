@@ -12,14 +12,14 @@ Go to **Company Settings > Import / Export** to manage bulk data operations.
 ### Quick import
 
 1. Go to the **Import Data** tab
-2. Upload a CSV file using the drag-and-drop zone
+2. Upload a CSV using the drag-and-drop zone
 3. Map your CSV columns to SIMPLOGIX fields
-4. Review the validation preview -- the system highlights any errors or warnings
+4. Review the validation preview — errors and warnings are highlighted
 5. Confirm and import
 
 ### Import templates
 
-Save your column mapping configuration as an **import template** for reuse. This is useful when you regularly import data in the same format.
+Save your column mapping as an import template for reuse. Handy if you regularly import data in the same format.
 
 ## Exporting data
 
@@ -41,7 +41,7 @@ Save your export configuration (columns, filters, format) as a template for repe
 Set up recurring exports that run automatically:
 
 - Choose frequency: daily, weekly, or monthly
-- Configure the export settings (data type, columns, filters, format)
+- Configure the settings (data type, columns, filters, format)
 - Exports run on schedule and are available for download
 
 ## History

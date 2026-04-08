@@ -26,20 +26,20 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Inspections',
-      items: [
-        'inspections/overview',
-        'inspections/running-an-inspection',
-        'inspections/viewing-inspection-history',
-      ],
-    },
-    {
-      type: 'category',
       label: 'Defects',
       items: [
         'defects/overview',
         'defects/logging-a-defect',
         'defects/managing-defects',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Inspections',
+      items: [
+        'inspections/overview',
+        'inspections/running-an-inspection',
+        'inspections/viewing-inspection-history',
       ],
     },
     {

@@ -5,37 +5,39 @@ title: The Dashboard
 
 # The Dashboard
 
-After logging in, you land on the **Dashboard** -- a real-time overview of your site's current status.
+The dashboard is the first thing you see after logging in — a real-time snapshot of your site's status.
+
+![Dashboard overview](/img/screenshots/dashboard.png)
 
 ## Summary cards
 
-At the top of the dashboard you'll find coloured summary cards:
+Across the top you'll find coloured summary cards:
 
-- **Risk level cards** -- one card per risk level (e.g. Extreme, High, Medium, Low), each showing the count of open defects at that risk level. The colours match your company's risk matrix configuration.
-- **Assets** -- total number of assets registered to your selected site(s)
-- **Restricted Areas** -- total number of restricted areas on your site(s)
+- **Risk level cards** — one per risk level, showing the count of open defects at that level. The levels and colours come from your company's risk matrix configuration (Extreme, High, Medium, Low by default).
+- **Assets** — total assets registered to your selected site(s)
+- **Restricted Areas** — total restricted areas on your site(s)
 
 ## Charts
 
-Below the summary cards, the dashboard displays eight charts giving you a visual breakdown of your site's status:
+Below the cards, eight charts give you a visual breakdown of what's happening:
 
 | Chart | What it shows |
 |---|---|
-| **Risk Assessment** | Open defects broken down by risk level |
-| **Inspection Status** | All inspections by status (Scheduled, In Progress, Completed, etc.) |
-| **Planning Status** | Open defects by planning stage (Awaiting Engineering, Awaiting Quotes, Planning Complete, etc.) |
-| **Upcoming Inspections** | Bar chart showing scheduled inspections over the next 90 days, grouped by week |
-| **Repair Status** | Open defects by repair progress (Not Started, In Progress, Completed) |
-| **Defect Type** | Open defects grouped by defect type |
-| **QA/QC Status** | Open defects by closeout status (Outstanding, Requires Rework, Awaiting Sign Off, Closed) |
+| **Risk Assessment** | Open defects by risk level |
+| **Inspection Status** | Inspections by status (Scheduled, In Progress, Completed, etc.) |
+| **Planning Status** | Open defects by planning stage |
+| **Upcoming Inspections** | Scheduled inspections over the next 90 days, grouped by week |
+| **Repair Status** | Open defects by repair progress |
+| **Defect Type** | Open defects grouped by type |
+| **QA/QC Status** | Open defects by closeout status |
 | **Closed QA/QC (Monthly)** | Defects closed over the past 12 months, stacked by risk level |
 
-Hover over any chart segment to see the exact count and percentage. On donut charts, click **View details** to see a full breakdown.
+Hover over any chart segment to see the exact count and percentage. On donut charts, click **View details** for a full breakdown.
 
 ## Date range and printing
 
-Use the date range buttons (**7 days**, **30 days**, **90 days**, **All time**) at the top of the page to adjust the time window. Click the **print icon** to print the dashboard.
+Use the date range buttons (**7 days**, **30 days**, **90 days**, **All time**) at the top of the page to adjust the time window. The print icon lets you print the dashboard.
 
 ## Site selector
 
-If you have access to more than one site, the dashboard reflects your currently selected site(s). Use the site selector in the top navigation to change which sites are included.
+If you have access to multiple sites, the dashboard reflects your current selection. Change it with the site selector in the top navigation.

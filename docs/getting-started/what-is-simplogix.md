@@ -5,27 +5,27 @@ title: What is SIMPLOGIX?
 
 # What is SIMPLOGIX?
 
-SIMPLOGIX is an industrial asset management platform designed to help teams track assets, run inspections, manage defects, and maintain compliance -- all in one place.
+SIMPLOGIX is an industrial asset management platform. It brings asset tracking, inspections, defect management, and compliance reporting into one place so your team can spend less time on paperwork and more time on site.
 
-## What you can do with SIMPLOGIX
+## What you can do
 
-- **Manage assets** -- keep a centralised register of all your equipment and infrastructure, with custom fields configured to your site's needs
-- **Run inspections** -- complete checklist-based inspections in the field, with photo capture, focus mode for mobile use, and offline support
-- **Track defects** -- log defects with risk assessments, plan repairs, assign work, and close out with a structured QA/QC checklist
-- **Manage restricted areas** -- define safety zones on your site and link them to assets and defects
-- **Generate reports** -- run pre-built or custom reports on assets, defects, compliance, and corrective actions
-- **Manage your team** -- view your roster, set availability, and assign inspections to operators
-- **Monitor your site** -- get a real-time dashboard showing risk levels, inspection status, and defect trends
+- **Manage assets** — maintain a centralised register of all your equipment and infrastructure, with custom fields tailored to your site
+- **Run inspections** — complete checklist-based inspections in the field with photo capture, focus mode for mobile, and offline support
+- **Track defects** — log issues with risk assessments, plan repairs, assign work, and close out through a structured QA/QC process
+- **Manage restricted areas** — define and monitor safety zones, link them to assets and defects, and track control verifications
+- **Generate reports** — use pre-built reports or build your own, with scheduled exports in CSV, PDF, or Excel
+- **Manage your team** — view rosters, set availability, and assign inspections to operators
+- **Monitor your site** — a real-time dashboard shows risk levels, inspection status, and defect trends at a glance
 
-## Who uses SIMPLOGIX?
+## Who is it for?
 
-SIMPLOGIX is built for industrial and operational teams, including:
+SIMPLOGIX is built for industrial and operational teams:
 
-- **Administrators** who manage users, site settings, templates, and company configuration
-- **Managers** who oversee operations, assign work, and manage teams
-- **Planners** who schedule repairs and manage defect planning
-- **Operators** who carry out inspections and log defects in the field
-- **Viewers** who need read-only access to reports and asset data
+- **Administrators** manage users, site settings, templates, and company configuration
+- **Managers** oversee operations, assign work, and manage teams
+- **Planners** schedule repairs and coordinate defect planning
+- **Operators** carry out inspections and log defects in the field
+- **Viewers** have read-only access to reports and asset data
 
 ## Next steps
 
