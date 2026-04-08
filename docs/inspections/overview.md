@@ -7,8 +7,6 @@ title: Inspections Overview
 
 Inspections let you record the condition of assets at a point in time. Every inspection is tied to a specific asset, uses a checklist template, and creates a permanent record.
 
-![Inspections page](/img/screenshots/inspections.png)
-
 ## Why inspections matter
 
 Regular inspections help you catch issues before they escalate, maintain a compliance trail for auditing, track asset condition over time, and identify defects that need corrective action.

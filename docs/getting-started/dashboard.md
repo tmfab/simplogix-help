@@ -7,8 +7,6 @@ title: The Dashboard
 
 The dashboard is the first thing you see after logging in — a real-time snapshot of your site's status.
 
-![Dashboard overview](/img/screenshots/dashboard.png)
-
 ## Summary cards
 
 Across the top you'll find coloured summary cards:

@@ -7,8 +7,6 @@ title: Assets Overview
 
 The **Assets** section is your site's centralised register — equipment, infrastructure, vehicles, and anything else you need to track, inspect, or maintain.
 
-![Asset list](/img/screenshots/assets.png)
-
 ## What is an asset?
 
 An asset is any physical item you want to inspect or monitor. That could be a pump, a vehicle, a piece of electrical equipment, a structure, or anything else relevant to your operations.

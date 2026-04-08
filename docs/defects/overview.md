@@ -7,8 +7,6 @@ title: Defects Overview
 
 Defects are issues found on assets — anything from minor wear to safety-critical faults. SIMPLOGIX helps you log them, assess the risk, plan repairs, and close them out through a structured process.
 
-![Defects page](/img/screenshots/defects.png)
-
 ## Defect statuses
 
 | Status | Meaning |
