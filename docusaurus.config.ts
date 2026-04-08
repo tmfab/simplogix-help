@@ -86,6 +86,7 @@ const config: Config = {
             {label: 'What is SIMPLOGIX?', to: '/getting-started/what-is-simplogix'},
             {label: 'Logging In', to: '/getting-started/logging-in'},
             {label: 'User Roles', to: '/getting-started/user-roles'},
+            {label: 'Dashboard', to: '/getting-started/dashboard'},
           ],
         },
         {
@@ -94,6 +95,18 @@ const config: Config = {
             {label: 'Assets', to: '/assets/overview'},
             {label: 'Inspections', to: '/inspections/overview'},
             {label: 'Defects', to: '/defects/overview'},
+            {label: 'Restricted Areas', to: '/restricted-areas/overview'},
+            {label: 'Reports', to: '/reports/overview'},
+            {label: 'Team', to: '/team/overview'},
+          ],
+        },
+        {
+          title: 'Administration',
+          items: [
+            {label: 'Inviting Users', to: '/admin/inviting-users'},
+            {label: 'Managing Users', to: '/admin/managing-users'},
+            {label: 'Site Management', to: '/admin/site-management'},
+            {label: 'Templates', to: '/admin/templates'},
           ],
         },
         {

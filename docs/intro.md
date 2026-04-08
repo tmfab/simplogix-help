@@ -1,47 +1,38 @@
 ---
 sidebar_position: 1
+title: Welcome
 ---
 
-# Tutorial Intro
+# SIMPLOGIX Help Centre
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the SIMPLOGIX documentation. Use the sidebar to find what you need, or start with the guides below.
 
-## Getting Started
+## Getting started
 
-Get started by **creating a new site**.
+New to SIMPLOGIX? Start here:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- [What is SIMPLOGIX?](/getting-started/what-is-simplogix) -- overview of the platform
+- [Logging in](/getting-started/logging-in) -- access your account
+- [Navigating the app](/getting-started/navigating-the-app) -- find your way around
+- [User roles](/getting-started/user-roles) -- understand what each role can do
+- [The dashboard](/getting-started/dashboard) -- your site at a glance
 
-### What you'll need
+## Core features
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [Assets](/assets/overview) -- manage your equipment register
+- [Inspections](/inspections/overview) -- run and schedule inspections
+- [Defects](/defects/overview) -- log, assess, and resolve defects
+- [Restricted areas](/restricted-areas/overview) -- manage safety zones
+- [Reports](/reports/overview) -- generate reports and export data
+- [Team](/team/overview) -- manage your team and schedules
 
-## Generate a new site
+## Administration
 
-Generate a new Docusaurus site using the **classic template**.
+- [Inviting users](/admin/inviting-users) -- add new team members
+- [Managing users](/admin/managing-users) -- roles, site access, and deactivation
+- [Site management](/admin/site-management) -- create and configure sites
+- [Templates](/admin/templates) -- customise asset, inspection, and defect forms
 
-The classic template will automatically be added to your project after you run the command:
+## Need help?
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Contact support at [support@simplogix.app](mailto:support@simplogix.app).
